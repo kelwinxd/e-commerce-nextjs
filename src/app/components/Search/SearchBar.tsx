@@ -36,16 +36,23 @@ const SearchBar = () => {
   }
 
   return (
-    <div>
-      <input type="text" name="" id="" value={query} onChange={HandleChange} />
+    <div className="relative w-full">
+      <input type="text" name="" id="" value={query} onChange={HandleChange} 
+      className="w-full rounded-lg bg-white px-4 py-2 outline-orange-400"
+      />
+      <div className="absolute top-full left-0 bg-white w-full">
+
+    
       {
         results.length > 0 && 
         <>
         {results.map((p) => (
-          <p key={p.title}>{p.title}</p>
+          <p key={p.title} className="text-gray-800 px-4 hover:bg-gray-400 cursor-pointer" >{p.title}</p>
         ))}
         </>
       }
+
+        </div>
     </div>
   )
 }

@@ -5,9 +5,9 @@ import DropdownMenu from '../Dropdown/DropdownMenu'
 
 const Header = () => {
   return (
-    <header>
-        <div className="flex gap-4">
-            <h1>TechShop</h1>
+    <header className="w-full bg-orange-400 px-5 py-4 flex flex-col gap-1 sm:gap-4">
+        <div className="flex flex-col sm:flex-row  justify-between items-center gap-10">
+            <h1 className="font-bold text-2xl">TechShop</h1>
             <SearchBar />
             <div>
                 <span>1</span>

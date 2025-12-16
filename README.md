@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
 
 ## Getting Started
-
+![Texto Alternativo](techscreen.PNG)
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🛒 E-commerce com Next.js e Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este repositório contém um projeto de e-commerce moderno, desenvolvido com Next.js e Tailwind CSS, com foco em performance, escalabilidade e experiência do usuário.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto apresenta uma interface limpa e responsiva, conforme demonstrado no screenshot do sistema, utilizando boas práticas de UI/UX, componentização e organização de código.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🚀 Tecnologias Utilizadas
 
-## Learn More
+Next.js — Framework React para aplicações modernas e performáticas
 
-To learn more about Next.js, take a look at the following resources:
+React — Componentização e gerenciamento de estado
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tailwind CSS — Estilização utilitária, rápida e altamente customizável
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+JavaScript / TypeScript (se aplicável)
 
-## Deploy on Vercel
+API REST (integração preparada para backend)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🎨 Interface e UX
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Layout responsivo (desktop e mobile)
+
+Design limpo e organizado
+
+Componentes reutilizáveis
+
+Hierarquia visual clara
+
+Foco em usabilidade e conversão
+
+O screenshot do projeto demonstra a estrutura visual do e-commerce, incluindo organização de produtos, navegação intuitiva e identidade visual consistente.
+
+⚙️ Funcionalidades
+
+Listagem de produtos
+
+Página de detalhes do produto
+
+Navegação otimizada
+
+Estrutura pronta para carrinho de compras
+
+Base preparada para integrações futuras (pagamentos, autenticação, etc.)
+
+📈 Performance e SEO
+
+Renderização otimizada com SSR/SSG
+
+Melhor indexação para mecanismos de busca
+
+Carregamento rápido de páginas
+
+Estrutura semântica otimizada
