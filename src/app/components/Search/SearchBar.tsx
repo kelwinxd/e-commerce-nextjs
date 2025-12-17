@@ -40,7 +40,7 @@ const SearchBar = () => {
       <input type="text" name="" id="" value={query} onChange={HandleChange} 
       className="w-full rounded-lg bg-white px-4 py-2 outline-orange-400"
       />
-      <div className="absolute top-full left-0 bg-white w-full">
+      <div className="absolute top-full left-0 bg-white w-full z-20">
 
     
       {

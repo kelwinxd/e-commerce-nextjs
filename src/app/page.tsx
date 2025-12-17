@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import products from '../data/products.json'
+import Slider from './components/Slider/Slider'
 
 type Product = {
   id: number;
@@ -13,6 +14,7 @@ const Page = () => {
    const [results, setResults] = useState<Product[]>(products)
   return (
     <div className="flex w-full px-[120px] mx-auto gap-3 flex-wrap">
+      <Slider />
       {results.length > 0 && 
       <>
       {results.map((p) => (
