@@ -1,7 +1,7 @@
 
 
 ## Getting Started
-![Texto Alternativo](techscreen.PNG)
+![Texto Alternativo](screenecom.PNG)
 First, run the development server:
 
 🛒 E-commerce com Next.js e Tailwind CSS

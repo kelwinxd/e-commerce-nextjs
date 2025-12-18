@@ -18,55 +18,55 @@
     "title": "Mouse Gamer 16000 DPI",
     "category": "pcgamer",
     "price": 149.90,
-    "image": "/products/mouse.jpg"
+    "image": "/products/rtx4060.jpg"
   },
   {
     "id": 4,
     "title": "Headset Gamer Surround 7.1",
     "category": "pcgamer",
     "price": 349.90,
-    "image": "/products/headset.jpg"
+    "image": "/products/rtx4060.jpg"
   },
   {
     "id": 5,
     "title": "Monitor Gamer 27\" 165Hz",
     "category": "perifericos",
     "price": 1299.90,
-    "image": "/products/monitor.jpg"
+    "image": "/products/rtx4060.jpg"
   },
   {
     "id": 6,
     "title": "SSD NVMe 1TB",
     "category": "hardware",
     "price": 499.90,
-    "image": "/products/ssd.jpg"
+    "image": "/products/rtx4060.jpg"
   },
   {
     "id": 7,
     "title": "Memória RAM DDR4 16GB 3200MHz",
     "category": "hardware",
     "price": 289.90,
-    "image": "/products/ram.jpg"
+    "image": "/products/rtx4060.jpg"
   },
   {
     "id": 8,
     "title": "Fonte 750W 80 Plus Gold",
     "category": "hardware",
     "price": 599.90,
-    "image": "/products/fonte.jpg"
+    "image": "/products/rtx4060.jpg"
   },
   {
     "id": 9,
     "title": "Gabinete Gamer com Vidro Temperado",
     "category": "hardware",
     "price": 449.90,
-    "image": "/products/gabinete.jpg"
+    "image": "/products/rtx4060.jpg"
   },
   {
     "id": 10,
     "title": "Notebook Gamer RTX 4050",
     "category": "notebooks",
     "price": 5499.00,
-    "image": "/products/notebook-gamer.jpg"
+    "image": "/products/rtx4060.jpg"
   }
 ]
