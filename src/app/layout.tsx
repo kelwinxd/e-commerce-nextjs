@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from './components/Header/Header'
 import {CartProvider} from '../context/ContextCart'
+import {FilterProvider} from '../context/FilterContext'
 
 
 
@@ -19,10 +20,14 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <CartProvider>
+        <FilterProvider>
 
+      
       
         <Header />
         {children}
+
+        </FilterProvider>
         </CartProvider>
       </body>
     </html>

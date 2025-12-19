@@ -19,7 +19,12 @@ const CardProduct = ({product} : {product:Product}) => {
         
         <h2 className="text-sm font-medium line-clamp-2">{product.title}</h2>
         <p>{product.price}</p>
-        <button 
+        <div className="flex justify-between">
+  <button title='Favoritar' className=" text-xl hover:text-red-500 transition ">
+    ❤
+  </button>
+
+  <button 
         onClick={() => addtoCart(
             {id:product.id,
             title:product.title,
@@ -28,6 +33,8 @@ const CardProduct = ({product} : {product:Product}) => {
              image: product.image})}>
                 Adicionar
             </button>
+        </div>
+      
     </div>
   )
 }
