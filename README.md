@@ -1,7 +1,7 @@
 
 
 ## Getting Started
-![Texto Alternativo](screenecom.PNG)
+![Texto Alternativo](screentech.png)
 First, run the development server:
 
 🛒 E-commerce com Next.js e Tailwind CSS
