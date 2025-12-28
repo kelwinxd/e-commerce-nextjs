@@ -3,6 +3,8 @@ import SearchBar from '../Search/SearchBar'
 import DropdownMenu from '../Dropdown/DropdownMenu'
 import Link from 'next/link'
 import CartBtn from '../CartBtn/CartBtn'
+import FavIcon from '../FavIcon/FavIcon'
+
 
 
 const Header = () => {
@@ -13,9 +15,9 @@ const Header = () => {
             <SearchBar />
             <div className="flex gap-2 items-center mr-4">
                 <span><i className="text-2xl fa-solid fa-universal-access"></i></span>
-                <span><i className="text-2xl fa-regular fa-heart"></i></span>
                 
                 <CartBtn />
+                <FavIcon />
                 
             </div>
             

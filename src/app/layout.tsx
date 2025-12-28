@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from './components/Header/Header'
 import {CartProvider} from '../context/ContextCart'
 import {FilterProvider} from '../context/FilterContext'
+import { FavContextProvider } from "@/context/FavContext";
 
 
 
@@ -26,16 +27,16 @@ export default function RootLayout({
 
       </head>
       <body>
+        <FavContextProvider>
         <CartProvider>
         <FilterProvider>
 
-      
-      
         <Header />
         {children}
 
         </FilterProvider>
         </CartProvider>
+        </FavContextProvider>
       </body>
     </html>
   );

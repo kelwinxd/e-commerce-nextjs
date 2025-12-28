@@ -2,6 +2,7 @@ import React from 'react'
 import {useCart} from '../../../context/ContextCart'
 import Link from 'next/link'
 import AddCartBtn from '../AddCartBtn/AddCartBtn';
+import FavBtn from '../FavBtn/FavBtn';
 
 type Product = {
   id: number;
@@ -25,11 +26,9 @@ const CardProduct = ({product} : {product:Product}) => {
         </Link>
         <p>{product.price}</p>
         <div className="flex justify-between">
-  <button title='Favoritar' className=" text-xl hover:text-red-500 transition ">
-    ❤
-  </button>
+        <FavBtn productId={product.id} />
 
-  <AddCartBtn product={product} />
+        <AddCartBtn product={product} />
         </div>
       
     </div>

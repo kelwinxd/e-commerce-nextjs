@@ -10,8 +10,14 @@ type Product = {
   image: string;
 };
 
+type AddCartBtnProps = {
+  product: Product;
+  text?: string;
+};
 
-const AddCartBtn = ({product} : {product : Product}) => {
+
+
+const AddCartBtn = ({product, text = "Adicionar"} : AddCartBtnProps) => {
     const {addtoCart} = useCart()
   
     return (
@@ -22,9 +28,9 @@ const AddCartBtn = ({product} : {product : Product}) => {
              price: product.price, 
              quantity: 1, 
              image: product.image})}
-             className="cursor-pointer hover:text-orange-400"
+             className="cursor-pointer hover:text-orange-400 border p-2 rounded-2xl"
              >
-                Adicionar
+                {text}
             </button>
   )
 }

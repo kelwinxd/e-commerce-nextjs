@@ -14,7 +14,7 @@ type Product = {
 const Page = () => {
    const [results, setResults] = useState<Product[]>(products)
   return (
-    <div className="flex w-full px-[120px] mx-auto gap-3 flex-wrap">
+    <div className="flex w-full px-3 md:px-[104px] mx-auto gap-3 flex-wrap">
       <Slider />
       
       <ProductGrid />
