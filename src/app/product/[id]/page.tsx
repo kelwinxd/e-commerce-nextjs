@@ -1,5 +1,6 @@
 import AddCartBtn from "@/app/components/AddCartBtn/AddCartBtn";
 import productsData from "../../../data/products.json";
+import BreadCrumb from "@/app/components/BreadCrumb/BreadCrumb";
 
 type Product = {
   id: number;
@@ -28,7 +29,9 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <div className="grid grid-cols-2 p-5 gap-5">
+    <>
+    <BreadCrumb />
+    <div className="grid grid-cols-2 py-5 px-3 sm:px-[104px] gap-5">
     <div className="w-full h-[500px]"><img src={product.image} alt="" className="rounded-2xl w-full h-full object-cover"/></div>
     
     <div>
@@ -38,5 +41,6 @@ export default async function Page({ params }: Props) {
 
       </div>
     </div>
+      </>
   );
 }
