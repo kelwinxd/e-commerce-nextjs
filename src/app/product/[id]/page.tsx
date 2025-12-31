@@ -1,6 +1,7 @@
 import AddCartBtn from "@/app/components/AddCartBtn/AddCartBtn";
 import productsData from "../../../data/products.json";
 import BreadCrumb from "@/app/components/BreadCrumb/BreadCrumb";
+import { Metadata } from "next";
 
 type Product = {
   id: number;
@@ -15,6 +16,32 @@ type Props = {
     id: string;
   };
 };
+
+// 🔹 SEO DINÂMICO
+export async function generateMetadata(
+  { params }: Props
+): Promise<Metadata> {
+  const products = productsData as Product[];
+  const {id} = await params;
+  const product = products.find(
+    (p) => p.id === Number(id)
+  );
+
+  if (!product) {
+    return {
+      title: "Produto não encontrado",
+    };
+  }
+
+  return {
+    title: `${product.title}`,
+    description: `Compre ${product.title} pelo melhor preço.`,
+    openGraph: {
+      title: product.title,
+      images: [product.image],
+    },
+  };
+}
 
 export default async function Page({ params }: Props) {
   const products = productsData as Product[];
